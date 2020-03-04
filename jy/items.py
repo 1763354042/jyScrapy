@@ -11,4 +11,11 @@ import scrapy
 class JyItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
+    jobName = scrapy.Field()
+    jobAddress = scrapy.Field()
+    jobSalary = scrapy.Field()
+    jobEducation = scrapy.Field()
+    jobWorkYear = scrapy.Field()
+    jobCom = scrapy.Field()
+    jobKey = scrapy.Field()
     pass
